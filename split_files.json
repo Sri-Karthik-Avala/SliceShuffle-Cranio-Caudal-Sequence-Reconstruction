@@ -1,0 +1,27 @@
+{
+ "note": "parts are consecutive byte ranges; run reassemble_split_files.py",
+ "files": [
+  {
+   "path": "_cache_test_img.npy",
+   "size": 123863168,
+   "sha256": "92a7c9682c6de2dcff494c6239eb76ce63e241e4b6c7164331ab9877840bae38",
+   "parts": [
+    "_cache_test_img.npy.part000",
+    "_cache_test_img.npy.part001"
+   ]
+  },
+  {
+   "path": "_cache_train_img.npy",
+   "size": 561512576,
+   "sha256": "2885dccac7469e8471843fd4e5a59cf9c7719a65908d13d9150f894966d2e65d",
+   "parts": [
+    "_cache_train_img.npy.part000",
+    "_cache_train_img.npy.part001",
+    "_cache_train_img.npy.part002",
+    "_cache_train_img.npy.part003",
+    "_cache_train_img.npy.part004",
+    "_cache_train_img.npy.part005"
+   ]
+  }
+ ]
+}
