@@ -1,0 +1,28 @@
+=== R160 seed 0 start ===
+Traceback (most recent call last):
+  File "C:\Users\srika\Downloads\eris_sliceshuffle\ens_train.py", line 40, in <module>
+    main()
+  File "C:\Users\srika\Downloads\eris_sliceshuffle\ens_train.py", line 27, in main
+    pri, int_w, lp_present = S.build_priors(mask[trn]); cls_w = torch.tensor(int_w, dtype=torch.float32, device=S.DEV); soft = S.make_soft_targets(pos)
+UnboundLocalError: local variable 'torch' referenced before assignment
+ERROR conda.cli.main_run:execute(124): `conda run python ens_train.py --R 160 --seed 0 --epochs 64` failed. (See above for error)
+cooldown
+=== R160 seed 1 start ===
+Traceback (most recent call last):
+  File "C:\Users\srika\Downloads\eris_sliceshuffle\ens_train.py", line 40, in <module>
+    main()
+  File "C:\Users\srika\Downloads\eris_sliceshuffle\ens_train.py", line 27, in main
+    pri, int_w, lp_present = S.build_priors(mask[trn]); cls_w = torch.tensor(int_w, dtype=torch.float32, device=S.DEV); soft = S.make_soft_targets(pos)
+UnboundLocalError: local variable 'torch' referenced before assignment
+ERROR conda.cli.main_run:execute(124): `conda run python ens_train.py --R 160 --seed 1 --epochs 64` failed. (See above for error)
+cooldown
+=== R160 seed 2 start ===
+Traceback (most recent call last):
+  File "C:\Users\srika\Downloads\eris_sliceshuffle\ens_train.py", line 40, in <module>
+    main()
+  File "C:\Users\srika\Downloads\eris_sliceshuffle\ens_train.py", line 27, in main
+    pri, int_w, lp_present = S.build_priors(mask[trn]); cls_w = torch.tensor(int_w, dtype=torch.float32, device=S.DEV); soft = S.make_soft_targets(pos)
+UnboundLocalError: local variable 'torch' referenced before assignment
+ERROR conda.cli.main_run:execute(124): `conda run python ens_train.py --R 160 --seed 2 --epochs 64` failed. (See above for error)
+cooldown
+ALL R160 DONE

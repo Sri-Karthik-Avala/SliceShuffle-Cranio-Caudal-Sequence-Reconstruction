@@ -1,0 +1,45 @@
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\nn\modules\transformer.py:385: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:184: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(); post = torch.from_numpy(pos).to(DEV).float(); rankt = torch.from_numpy(rank).to(DEV)
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\optim\lr_scheduler.py:227: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\Downloads\eris_sliceshuffle\_train3.py:205: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast():
+C:\Users\srika\anaconda3\envs\max\lib\site-packages\torch\nn\modules\rnn.py:1393: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:1412.)
+  result = _VF.gru(
+params 10.39M train=380 val=96 R=160
+ep5 loss3.845 | RAW rank2=0.8552 mask2=0.3763 mf1=0.6088 S=0.6636 W={'w_cls': 1.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 1.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 48s
+ep10 loss3.621 | RAW rank2=0.9501 mask2=0.4002 mf1=0.6278 S=0.7301 W={'w_cls': 2.0, 'w_gap': 2.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 96s
+ep15 loss3.487 | RAW rank2=0.9903 mask2=0.4304 mf1=0.6498 S=0.7664 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 1.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 144s
+ep20 loss3.413 | RAW rank2=0.9902 mask2=0.4869 mf1=0.6893 S=0.7889 W={'w_cls': 0.5, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 192s
+ep25 loss3.318 | RAW rank2=0.9894 mask2=0.4708 mf1=0.6766 S=0.7820 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 1.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 241s
+ep30 loss3.206 | RAW rank2=0.9880 mask2=0.5057 mf1=0.7020 S=0.7950 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 1.5, 'w_occ': 0.3} | 290s
+ep35 loss3.101 | RAW rank2=0.9923 mask2=0.4935 mf1=0.6923 S=0.7928 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 340s
+ep40 loss3.036 | RAW rank2=0.9919 mask2=0.5266 mf1=0.7133 S=0.8058 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 389s
+ep42 loss3.022 | RAW rank2=0.9920 mask2=0.5335 mf1=0.7186 S=0.8086 W={'w_cls': 2.0, 'w_gap': 2.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 418s
+ep43 loss3.019 | RAW rank2=0.9919 mask2=0.5200 mf1=0.7093 S=0.8031 W={'w_cls': 1.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 440s
+ep44 loss3.016 | RAW rank2=0.9919 mask2=0.5280 mf1=0.7152 S=0.8063 W={'w_cls': 1.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3} | 462s
+FINAL raw: rank2=0.9919 mask2=0.5280 mf1=0.7152 S=0.8063 W={'w_cls': 1.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3}
+FINAL ema: rank2=0.9926 mask2=0.5279 mf1=0.7142 S=0.8067 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3}
+saved ema S=0.8067 W={'w_cls': 2.0, 'w_gap': 1.0, 'w_iprior': 0.3, 'w_lead': 0.0, 'w_lprior': 0.5, 'w_occ': 0.3}
